@@ -1,0 +1,17 @@
+#!/bin/bash -x
+
+
+num11=$((RAMDOM%90 + 10));
+num22=$((RAMDOM%90 + 10));
+num33=$((RAMDOM%90 + 10));
+num44=$((RAMDOM%90 + 10));
+num55=$((RAMDOM%90 + 10));
+
+sum=$(($num11 + $num22 + $num33 + $num44 + $num55));
+avg=$(($sum/5));
+prod=$(($11 * $22 * $33 * $44 * $55));
+
+echo "the sum of those numbers is; " $sum
+echo "the average of those numbers is; " $avg
+echo "the product of those numbers is; " $prod
+

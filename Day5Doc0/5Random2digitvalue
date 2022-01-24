@@ -1,0 +1,16 @@
+#!/bin/bash -x
+
+
+read -p "Enter first number; " num11;
+read -p "Enter 2nd number; " num22;
+read -p "Enter 3rd number; " num33;
+read -p "Enter 4th number; " num44;
+read -p "Enter 5th number; " num55;
+
+sum=$(($num11 + $num22 + $num33 + $num44 + $num55));
+avg=$(($sum/5)); 
+prod=$(($num11 * $num22 * $num33 * $num44 * $num55));
+
+echo "the sum of those numbers is; " $sum
+echo "the average of those numbers is; " $avg
+echo "the product of those numbers is; " $prod
